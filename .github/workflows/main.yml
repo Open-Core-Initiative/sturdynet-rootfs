@@ -9,20 +9,20 @@ jobs:
   build:
     runs-on: self-hosted
     steps:
-      - run: wget "https://runners-cache-sturdynet.s3.us-west-2.amazonaws.com/rootfs/openwrt-22.03.4-x86-64-generic-rootfs.tar.gz"
-      - run: tar -xf openwrt-22.03.4-x86-64-generic-rootfs.tar.gz
-      - run: rm -rf openwrt-22.03.4-x86-64-generic-rootfs.tar.gz
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Login to Docker Hub
-        uses: docker/login-action@v2
-        with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
-      - name: Build and push
-        uses: docker/build-push-action@v4
-        with:
-          context: .
-          file: ./Dockerfile
-          push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/rootfs:v7
+      - run: wget -v "https://runners-cache-sturdynet.s3.us-west-2.amazonaws.com/rootfs/openwrt-22.03.4-x86-64-generic-rootfs.tar.gz"
+      - run: tar -xf openwrt-22.03.4-x86-64-generic-rootfs.tar.gz
+      - run: rm -rf openwrt-22.03.4-x86-64-generic-rootfs.tar.gz
+      # - name: Login to Docker Hub
+      #   uses: docker/login-action@v2
+      #   with:
+      #     username: ${{ secrets.DOCKERHUB_USERNAME }}
+      #     password: ${{ secrets.DOCKERHUB_TOKEN }}
+      # - name: Build and push
+      #   uses: docker/build-push-action@v4
+      #   with:
+      #     context: .
+      #     file: ./Dockerfile
+      #     push: true
+      #     tags: ${{ secrets.DOCKERHUB_USERNAME }}/rootfs:v7
