@@ -1,4 +1,0 @@
-config flow_broker 'main'
-        list ext_iface 'wan'
-        list ext_iface 'lte'
-        option debug '0'

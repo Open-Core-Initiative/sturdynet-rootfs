@@ -1,4 +1,0 @@
-
-config netify 'fwa'
-	option pid '2747'
-

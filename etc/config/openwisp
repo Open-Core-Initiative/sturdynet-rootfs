@@ -1,4 +1,0 @@
-config controller 'http'
-	option url 'https://owisp.sturdynet.net'
-    option shared_secret 'NV2Wj2XPhYC3SK8PRNkFmoWkaUW5eh8k'
-    option tags 'cirrus'
