@@ -16,6 +16,6 @@ ARG USER=root
 USER $USER
 WORKDIR $WORKDIR
 
-COPY --from=0 /build/ ./
+COPY --from=0 --chown=$USER:$USER /build/ ./
 
 CMD ["/sbin/init"]
