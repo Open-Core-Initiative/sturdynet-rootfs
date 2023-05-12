@@ -11,11 +11,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - run: mkdir build && cd build
       - run: wget -v "https://runners-cache-sturdynet.s3.us-west-2.amazonaws.com/rootfs/openwrt-22.03.4-x86-64-generic-rootfs.tar.gz"
       - run: tar -xf openwrt-22.03.4-x86-64-generic-rootfs.tar.gz
-      - run: ls
+      - run: ls && pwd
       - run: rm -rf openwrt-22.03.4-x86-64-generic-rootfs.tar.gz
+      - run: docker builder prune --force --all
+      - run: docker system prune --force --all
       - run: sudo docker login --username ${{ secrets.DOCKERHUB_USERNAME }} --password ${{ secrets.DOCKERHUB_TOKEN }}
       - run: sudo docker image build --file=Dockerfile --pull --tag=${{ secrets.DOCKERHUB_USERNAME }}/rootfs:latest .
       - run: sudo docker push "${{ secrets.DOCKERHUB_USERNAME }}/rootfs:latest"
       - run: sudo docker logout
+      - run: cd .. && rm -rf build
