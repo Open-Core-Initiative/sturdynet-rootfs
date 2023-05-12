@@ -11,9 +11,9 @@ FROM scratch
 EXPOSE 80 443 22
 
 ARG WORKDIR=/
-# ARG USER=root
+ARG USER=sturdynet
 
-# USER $USER
+USER $USER
 WORKDIR $WORKDIR
 
 COPY --from=0 /build/ ./
