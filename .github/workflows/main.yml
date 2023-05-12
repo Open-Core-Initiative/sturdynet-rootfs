@@ -25,4 +25,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/rootfs:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/rootfs:v7
