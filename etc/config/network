@@ -1,0 +1,62 @@
+config interface 'wifinet0'
+    option auto '1'
+    option enabled '1'
+    option ifname 'wlan0'
+    option mtu '1500'
+    option proto 'none'
+
+config interface 'wifinet1'
+	option auto '1'
+	option enabled '1'
+	option ifname 'wlan1'
+	option mtu '1500'
+	option proto 'none'
+
+config interface 'loopback'
+	option device 'lo'
+	option proto 'static'
+	option ipaddr '127.0.0.1'
+	option netmask '255.0.0.0'
+
+config globals 'globals'
+	option ula_prefix 'fd44:3cbe:ebc3::/48'
+
+config device 'device_lan'
+	option name 'br-lan'
+	option type 'bridge'
+	list ports 'eth0'
+
+config interface 'lan'
+	option device 'br-lan'
+	option proto 'static'
+	option ipaddr '192.168.1.1'
+	option netmask '255.255.255.0'
+	option ip6assign '60'
+
+config interface 'wan'
+	option device 'eth0'
+	option proto 'dhcp'
+	option metric '10'
+
+config interface 'wan6'
+	option device 'eth0'
+	option proto 'dhcpv6'
+
+config switch
+	option name 'switch0'
+	option reset '1'
+	option enable_vlan '1'
+
+config switch_vlan
+	option device 'switch0'
+	option vlan '1'
+	option ports '3 4 0'
+
+config interface 'lte'
+	option apn 'broadband'
+	option device '/sys/devices/platform/soc/8af8800.usb3/8a00000.dwc3/xhci-hcd.0.auto/usb1/1-1'
+	option enabled '1'
+	option iptype 'ipv4'
+	option proto 'modemmanager'
+	option signalrate '5'
+    option metric '20'

@@ -1,0 +1,3 @@
+/usr/sbin/openwisp-monitoring
+/etc/config/openwisp-monitoring
+/etc/init.d/openwisp-monitoring

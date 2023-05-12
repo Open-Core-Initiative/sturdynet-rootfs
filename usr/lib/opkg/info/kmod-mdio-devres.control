@@ -1,0 +1,11 @@
+Package: kmod-mdio-devres
+Version: 5.10.176-1
+Depends: kernel (=5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-libphy
+Source: package/kernel/linux
+SourceName: kmod-mdio-devres
+License: GPL-2.0
+Section: kernel
+SourceDateEpoch: 1679936281
+Architecture: x86_64
+Installed-Size: 190
+Description:  Supports MDIO device registration

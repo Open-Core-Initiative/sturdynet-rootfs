@@ -1,0 +1,13 @@
+Package: flow_broker
+Version: 2022-04-08-dfb56589-v1.0
+Depends: libc, ulogd, ulogd-mod-extra, ulogd-mod-json, ulogd-mod-nfct, ulogd-mod-nflog, python3-netifaces, iptables-mod-nflog
+Source: /builds/vOCI/sturdynet/openwrt-packages/flow_broker/deploy/openwrt
+SourceName: flow_broker
+License: GPLv3
+Section: net
+SourceDateEpoch: 1672494991
+Maintainer: Michael Foxworthy <mfoxworthy@ipsquared.com>
+Architecture: all
+Installed-Size: 2918
+Description:  Flow broker takes all data form configured NFCT and NFLOG ulogd entries and sends them to a UDS in JSON format. This
+ is useful for applications that need packet and flow level data.

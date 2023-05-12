@@ -1,0 +1,11 @@
+Package: bnx2-firmware
+Version: 20220411-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: bnx2-firmware
+Section: firmware
+SourceDateEpoch: 1671061528
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: x86_64
+Installed-Size: 705088
+Description:  Broadcom BCM5706/5708/5709/5716 firmware

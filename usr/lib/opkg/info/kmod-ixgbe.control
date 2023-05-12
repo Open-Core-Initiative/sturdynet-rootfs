@@ -1,0 +1,11 @@
+Package: kmod-ixgbe
+Version: 5.10.176-1
+Depends: kernel (=5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-mdio, kmod-ptp, kmod-hwmon-core, kmod-libphy, kmod-mdio-devres
+Source: package/kernel/linux
+SourceName: kmod-ixgbe
+License: GPL-2.0
+Section: kernel
+SourceDateEpoch: 1679936281
+Architecture: x86_64
+Installed-Size: 127847
+Description:  Kernel modules for Intel(R) 82598/82599 PCI-Express 10 Gigabit Ethernet adapters.

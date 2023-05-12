@@ -1,0 +1,14 @@
+Package: libmbim
+Version: 1.26.4-1
+Depends: libc, glib2
+Source: feeds/packages/libs/libmbim
+SourceName: libmbim
+License: LGPL-2.0-or-later
+LicenseFiles: COPYING.LIB
+Section: libs
+SourceDateEpoch: 1660924241
+Maintainer: Nicholas Smith <nicholas@nbembedded.com>
+Architecture: x86_64
+Installed-Size: 134833
+Description:  Helper library to talk to MBIM enabled modems.
+ Add mbim-utils for extra utilities.

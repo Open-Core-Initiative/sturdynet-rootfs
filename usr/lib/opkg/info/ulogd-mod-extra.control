@@ -1,0 +1,13 @@
+Package: ulogd-mod-extra
+Version: 2.0.7-6
+Depends: libc, ulogd
+Source: feeds/packages/net/ulogd
+SourceName: ulogd-mod-extra
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1613865735
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: x86_64
+Installed-Size: 26390
+Description:  Extra plugins

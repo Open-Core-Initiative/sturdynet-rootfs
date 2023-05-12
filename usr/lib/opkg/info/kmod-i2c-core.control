@@ -1,0 +1,11 @@
+Package: kmod-i2c-core
+Version: 5.10.176-1
+Depends: kernel (=5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a)
+Source: package/kernel/linux
+SourceName: kmod-i2c-core
+License: GPL-2.0
+Section: kernel
+SourceDateEpoch: 1679936281
+Architecture: x86_64
+Installed-Size: 5061
+Description:  Kernel modules for I2C support

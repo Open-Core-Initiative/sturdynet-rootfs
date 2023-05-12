@@ -1,0 +1,11 @@
+Package: netify-fwa
+Version: 1.2.6-0.7dd4d567
+Depends: netifyd, ipset, python3-urllib, python3-openssl, python3-codecs, python3-ctypes
+Source: https://gitlab.com/netify.ai/public/netify-fwa/
+SourceName: netify-fwa
+License: GPL-3.0-or-later
+Section: net
+Maintainer: Netify
+Architecture: all
+Installed-Size: 262022
+Description: Netify Firewall Agent provides layer-7 hooks for iptables, ipset, QoS and other network tools.

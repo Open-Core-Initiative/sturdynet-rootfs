@@ -1,0 +1,15 @@
+Package: modemmanager
+Version: 1.18.6-2
+Depends: libc, glib2, dbus, ppp, libmbim, libqmi, libqrtr-glib
+Source: feeds/packages/net/modemmanager
+SourceName: modemmanager
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1660924191
+Maintainer: Nicholas Smith <nicholas@nbembedded.com>
+Architecture: x86_64
+Installed-Size: 1297107
+Description:  ModemManager is a D-Bus-activated service which allows controlling mobile
+ broadband modems. Add kernel modules for your modems as needed.
+ Select Utilities/usb-modeswitch if needed.

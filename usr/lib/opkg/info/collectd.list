@@ -1,0 +1,5 @@
+/usr/share/collectd/types.db
+/etc/init.d/collectd
+/etc/config/collectd
+/usr/sbin/collectd
+/lib/upgrade/keep.d/collectd

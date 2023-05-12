@@ -1,0 +1,2308 @@
+Package: terminfo
+Version: 6.3-2
+Depends: libc
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libuci-lua
+Version: 2021-10-22-f84f49f0-6
+Depends: libc, libuci20130104, liblua5.1.5
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: luci-app-statistics
+Version: git-23.093.42314-fcb96f5
+Depends: libc, luci-base, luci-lib-jsonc, collectd, rrdtool1, collectd-mod-rrdtool, collectd-mod-iwinfo, collectd-mod-cpu, collectd-mod-memory, collectd-mod-interface, collectd-mod-load, collectd-mod-network
+Status: install user installed
+Architecture: all
+Conffiles:
+ /etc/config/luci_statistics 60bdc5fc65a85c4f7dbbdaec7daf9d558bbac61518184f1f5678537a5da23bf1
+Installed-Time: 1681043266
+
+Package: liblucihttp0
+ABIVersion: 0
+Version: 2023-03-15-9b5b683f-1
+Depends: libc
+Provides: liblucihttp
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: cgi-io
+Version: 2022-08-10-901b0f04-21
+Depends: libc, libubox20220515, libubus20220601
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: luci-lib-base
+Version: git-20.232.39649-1f6dc29
+Depends: libc, lua, luci-lib-nixio, luci-lib-ip, luci-lib-jsonc, liblucihttp-lua
+Status: install ok installed
+Architecture: all
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libc
+Version: 1.2.3-4
+Depends: libgcc
+Status: install hold,user installed
+Essential: yes
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: libbz2-1.0
+ABIVersion: -1.0
+Version: 1.0.8-1
+Depends: libc
+Provides: libbz2
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: mkf2fs
+Version: 1.14.0-3
+Depends: libc, libf2fs6
+Conflicts: mkf2fs-selinux
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: luci-app-mwan3
+Version: git-23.093.40772-fa4dc75
+Depends: libc, mwan3
+Status: install user installed
+Architecture: all
+Installed-Time: 1681043266
+
+Package: ulogd-mod-json
+Version: 2.0.7-6
+Depends: libc, ulogd, jansson4
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: opkg
+Version: 2022-02-24-d038e5b6-1
+Depends: libc, uclient-fetch, libpthread, libubox20220515
+Status: install user installed
+Essential: yes
+Architecture: x86_64
+Conffiles:
+ /etc/opkg.conf f38c19f696ea87c0b30eb5bfeb8657237f4625e1a749c58b99f01595edfb6446
+ /etc/opkg/customfeeds.conf 61d1f3aa62fe977614ed0c2f0ad3b2ee2f7b451bfb34812071d86d31a4d43d4a
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-usb-core
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-nls-base
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: luci-app-opkg
+Version: git-23.093.42303-e16f620
+Depends: libc, opkg
+Status: install ok installed
+Architecture: all
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: ulogd-mod-extra
+Version: 2.0.7-6
+Depends: libc, ulogd
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libpthread
+Version: 1.2.3-4
+Depends: libgcc1
+Status: install hold installed
+Essential: yes
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: ubus
+Version: 2022-06-01-2bebf93c-1
+Depends: libc, libubus20220601, libblobmsg-json20220515, ubusd
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libuci20130104
+ABIVersion: 20130104
+Version: 2021-10-22-f84f49f0-6
+Depends: libc, libubox20220515
+Provides: libuci
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-ixgbe
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-mdio, kmod-ptp, kmod-hwmon-core, kmod-libphy, kmod-mdio-devres
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: rpcd
+Version: 2022-12-15-7de4820c-1
+Depends: libc, libubus20220601, libubox20220515, libuci20130104, libblobmsg-json20220515, libjson-c5
+Status: install ok installed
+Architecture: x86_64
+Conffiles:
+ /etc/config/rpcd 1a40da0ebe45b1afd131dfc4650592913e38445e7fe42f96d3b95ad5151ac0e6
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: busybox
+Version: 1.35.0-5
+Depends: libc
+Conflicts: busybox-selinux
+Status: install user installed
+Essential: yes
+Architecture: x86_64
+Conffiles:
+ /etc/syslog.conf e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Installed-Time: 1681043266
+
+Package: python3-urllib
+Version: 3.10.9-1
+Depends: libc, python3-light, python3-email
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-usb-net-qmi-wwan
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-usb-net, kmod-usb-wdm
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: luci-lib-ip
+Version: git-20.250.76529-62505bd
+Depends: libc, liblua5.1.5, libnl-tiny1
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: python3-light
+Version: 3.10.9-1
+Depends: libc, python3-base, libffi, libbz2-1.0
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: jq
+Version: 1.6-2
+Depends: libc
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: libwolfssl5.5.4.ee39414e
+ABIVersion: 5.5.4.ee39414e
+Version: 5.5.4-stable-1
+Depends: libc
+Provides: libcyassl, libwolfssl, libcyassl5.5.4.ee39414e
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-nft-fib
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-nft-core
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: chat
+Version: 2.4.9.git-2021-01-04-3
+Depends: libc
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-nfnetlink
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a)
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libubus-lua
+Version: 2022-06-01-2bebf93c-1
+Depends: libc, libubus20220601, liblua5.1.5
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-crypto-hash
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a)
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-nf-reject6
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a)
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-tun
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a)
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: glib2
+Version: 2.70.5-4
+Depends: libc, zlib, libpthread, libffi, libattr, libpcre
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libiwinfo-lua
+Version: 2022-12-15-8d158096-1
+Depends: libc, libiwinfo20210430, liblua5.1.5
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-usb-wdm
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-usb-core
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: libpython3-3.10
+ABIVersion: -3.10
+Version: 3.10.9-1
+Depends: libc, libpthread, zlib
+Provides: libpython3
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: bnx2-firmware
+Version: 20220411-1
+Depends: libc
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libdbus
+Version: 1.13.18-12
+Depends: libc, libpthread
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: luci-mod-system
+Version: git-23.013.73113-588381e
+Depends: libc, luci-base
+Status: install ok installed
+Architecture: all
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-nf-flow
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-nf-conntrack
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libnl-tiny1
+ABIVersion: 1
+Version: 2021-11-21-8e0555fb-1
+Depends: libc
+Provides: libnl-tiny
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libustream-wolfssl20201210
+ABIVersion: 20201210
+Version: 2022-12-08-9217ab46-2
+Depends: libc, libubox20220515, libwolfssl5.5.4.ee39414e
+Provides: libustream-wolfssl
+Conflicts: libustream-openssl
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: kmod-lib-crc-ccitt
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a)
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: getrandom
+Version: 2021-08-03-205defb5-2
+Depends: libc
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libiptext0
+ABIVersion: 0
+Version: 1.8.7-7
+Depends: libc, libxtables12
+Provides: libiptext
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: ucode-mod-ubus
+Version: 2022-12-02-46d93c9c-1
+Depends: libc, ucode, libubus20220601, libblobmsg-json20220515
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libev
+Version: 4.33-1
+Depends: libc
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: r8169-firmware
+Version: 20220411-1
+Depends: libc
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: luci-theme-bootstrap
+Version: git-23.093.42704-b47268a
+Depends: libc
+Status: install ok installed
+Architecture: all
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libusb-1.0-0
+ABIVersion: -0
+Version: 1.0.24-5
+Depends: libc, libpthread, librt
+Provides: libusb-1.0
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-pppoe
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-ppp, kmod-pppox
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libuuid1
+ABIVersion: 1
+Version: 2.37.4-1
+Depends: libc, librt
+Provides: libuuid
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-pppox
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-ppp
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: confuse
+Version: 3.3-1
+Depends: libc
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-ipt-conntrack
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-ipt-core, kmod-nf-conntrack
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-nf-reject
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a)
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: procd-ujail
+Version: 2022-06-01-7a009685-2
+Depends: libc, libubox20220515, libubus20220601, libuci20130104, libblobmsg-json20220515
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: base-files
+Version: 1500-r20123-38ccc47687
+Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, fstools, fwtool
+Status: install user installed
+Architecture: x86_64
+Conffiles:
+ /etc/ethers 56bda09b0aa3d1e88107bfa8a1c6e4449d5c1f47245dc1c4037ff9b5db163b7c
+ /etc/group 45e8cab268d4a2254d48ccb1f889630047e81758de54a614cad5449fdbebe19c
+ /etc/hosts c1a978d90673437b35fa9494e0a54294062c152bb653d490b718052ab88447fd
+ /etc/inittab f74069b98072f928523990b9868eb6b268b574cbc3e4e8411c6397ea5ff30e4a
+ /etc/iproute2/rt_protos a0712b1771c8d5f3e0dcf9a6314880e71aa3498ea1ae873535bdfcf70d814061
+ /etc/iproute2/rt_tables f771e2b81741f70e3faf658dc504f0dc048672fc8caaadea15e46c35da3de8f8
+ /etc/passwd 6a451aa33393f47ade89b8bce4d9711818c2630394c3967265ffed276bb25a55
+ /etc/profile 73a6177caf76a76d178111e57eb6ee95c3ba06ce2fc6864c7fb89cacf433c66d
+ /etc/protocols 7d551355d5540b07b9d86e623cbbc4abecbb94d2a662b3afcc917940eb0e3d52
+ /etc/rc.local 515018aa94eb4937dade12dc0d69890b352af35a5ab5fb8203f9ed10990ac06f
+ /etc/services 754ccc71ca347bc79ac4c45139d416b7cf1e65a919dad1db15613a216cd6b9cc
+ /etc/shadow 9000a74fcbf027301e784909e74e2cfff1b879707432090fadedc8527858873e
+ /etc/shells 8b35ce73c18161a7d7ed16fa244410993bd031515260e3e0c11749047df48d0a
+ /etc/shinit f633939cdda16a3116225a578f457295b2a0da824c47d5f0e90a58806c059321
+ /etc/sysctl.conf c02fe88dc055a1eaee9e7cb631760a3a5a9cea55610b42aa45196838c6f1a55e
+ /etc/sysupgrade.conf 9e87b05fe2f12c84d1c465b396322748479f64bc40e5bab061887f0bd95020a6
+Installed-Time: 1681043266
+
+Package: kmod-nf-nat
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-nf-conntrack
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-input-core
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a)
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: ulogd-mod-nfct
+Version: 2.0.7-6
+Depends: libc, ulogd, libnetfilter-conntrack3
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libpcre
+Version: 8.45-3
+Depends: libc
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-crypto-crc32c
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-crypto-hash
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: python3-email
+Version: 3.10.9-1
+Depends: libc, python3-light
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: ucode-mod-uci
+Version: 2022-12-02-46d93c9c-1
+Depends: libc, ucode, libuci20130104
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: partx-utils
+Version: 2.37.4-1
+Depends: libc, libblkid1, libsmartcols1
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: netifd
+Version: 2022-08-25-76d2d41b-1
+Depends: libc, libuci20130104, libnl-tiny1, libubus20220601, ubus, ubusd, jshn, libubox20220515
+Status: install user installed
+Architecture: x86_64
+Conffiles:
+ /etc/udhcpc.user 4dabffbc2110a29e01babc63d9b8db94da49efd3ed784d35b49a559ac8ce7035
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-ipt-raw
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-ipt-core
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libf2fs6
+ABIVersion: 6
+Version: 1.14.0-3
+Depends: libc, libuuid1
+Provides: libf2fs
+Conflicts: libf2fs-selinux
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libnl-route200
+ABIVersion: 200
+Version: 3.5.0-1
+Depends: libc, libnl-core200
+Provides: libnl-route
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libsmartcols1
+ABIVersion: 1
+Version: 2.37.4-1
+Depends: libc, librt
+Provides: libsmartcols
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-r8169
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-mii, r8169-firmware, kmod-phy-realtek, kmod-mdio-devres
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: libubus20220601
+ABIVersion: 20220601
+Version: 2022-06-01-2bebf93c-1
+Depends: libc, libubox20220515
+Provides: libubus
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-ipt-nflog
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-ipt-core, kmod-nfnetlink-log
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: firewall4
+Version: 2022-10-18-7ae5e14b-1
+Depends: ucode (>= 2022-03-22), libc, kmod-nft-core, kmod-nft-fib, kmod-nft-offload, kmod-nft-nat, nftables-json, ucode, ucode-mod-fs, ucode-mod-ubus, ucode-mod-uci
+Provides: uci-firewall
+Status: install user installed
+Architecture: x86_64
+Conffiles:
+ /etc/config/firewall 5c4e275dc6d40ac8215a568debb19d9d62dfada91d5746372d0cb0ec71a3d306
+ /etc/nftables.d/10-custom-filter-chains.nft af5cbfeb3e3b61d32ce134ae33d15330ee27da838e6f4fb9c717f034923b8b16
+ /etc/nftables.d/README 0656d83221c1d000f6b9655757c412f328e332b5bdf25efbfa88611d8104490d
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: python3-netifaces
+Version: 0.10.9-2
+Depends: libc, python3-light
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-mii
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a)
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: dnsmasq
+Version: 2.86-16
+Depends: libc, libubus20220601
+Status: install user installed
+Architecture: x86_64
+Conffiles:
+ /etc/config/dhcp ddd520eb24451a892c9c666d83c10c9ea4fc944efbc34a149bc962c56bd8812f
+ /etc/dnsmasq.conf 1e6ab19c1ae5e70d609ac7b6246541d52042e4dee1892f825266507ef52d7dfd
+Installed-Time: 1681043266
+
+Package: procd
+Version: 2022-06-01-7a009685-2
+Depends: libc, ubusd, ubus, libjson-script20220515, ubox, libubox20220515, libubus20220601, libblobmsg-json20220515, libjson-c5, jshn
+Conflicts: procd-selinux
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: ubusd
+Version: 2022-06-01-2bebf93c-1
+Depends: libc, libubox20220515, libblobmsg-json20220515
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libnetfilter-conntrack3
+ABIVersion: 3
+Version: 1.0.9-2
+Depends: libc, libnfnetlink0, kmod-nf-conntrack-netlink, libmnl0
+Provides: libnetfilter-conntrack
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-lib-crc32c
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-crypto-crc32c
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: luci-mod-status
+Version: git-23.093.42411-713f701
+Depends: libc, luci-base, libiwinfo20210430, libiwinfo-lua
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-i2c-core
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a)
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: lua-cjson
+Version: 2.1.0-2
+Depends: libc, lua
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libxtables12
+ABIVersion: 12
+Version: 1.8.7-7
+Depends: libc
+Provides: libxtables
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libjson-script20220515
+ABIVersion: 20220515
+Version: 2022-05-15-d2223ef9-1
+Depends: libc, libubox20220515
+Provides: libjson-script
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libmbedtls12
+ABIVersion: 12
+Version: 2.28.2-1
+Depends: libc
+Provides: libmbedtls
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: luci-proto-modemmanager
+Version: git-23.093.42704-02e0766
+Depends: libc, modemmanager
+Status: install user installed
+Architecture: all
+Installed-Time: 1681043266
+
+Package: kmod-fs-vfat
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-nls-base, kmod-nls-cp437, kmod-nls-iso8859-1, kmod-nls-utf8
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: kmod-nft-nat
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-nft-core, kmod-nf-nat
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: collectd-mod-interface
+Version: 5.12.0-33
+Depends: libc, collectd
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: comgt
+Version: 0.32-35
+Depends: libc, chat
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: kmod-phy-realtek
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-libphy
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: luci-app-firewall
+Version: git-23.093.42704-1c01c64
+Depends: libc, uci-firewall
+Status: install ok installed
+Architecture: all
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-ipt-conntrack-extra
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-ipt-core, kmod-ipt-conntrack
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-nf-ipt
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a)
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libblkid1
+ABIVersion: 1
+Version: 2.37.4-1
+Depends: libc, libuuid1
+Provides: libblkid
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libmnl0
+ABIVersion: 0
+Version: 1.0.5-1
+Depends: libc
+Provides: libmnl
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: collectd-mod-network
+Version: 5.12.0-33
+Depends: libc, collectd
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: jansson4
+ABIVersion: 4
+Version: 2.13.1-2
+Depends: libc
+Provides: jansson
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: tcpdump
+Version: 4.9.3-4
+Depends: libc, libpcap1
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: kmod-ip6tables
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-nf-reject6, kmod-nf-ipt6, kmod-ipt-core
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: odhcp6c
+Version: 2022-08-05-7d21e8d8-18
+Depends: libc, libubox20220515
+Status: install user installed
+Architecture: x86_64
+Conffiles:
+ /etc/odhcp6c.user 6d2b77cbb3ff311ea6e7237fe150bf272bf0b3a6c0b4e9e00c6423fd6b637557
+Installed-Time: 1681043266
+
+Package: fstools
+Version: 2022-06-02-93369be0-2
+Depends: libc, ubox
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: uclient-fetch
+Version: 2023-04-13-007d9454-1
+Depends: libc, libuclient20201210
+Provides: wget
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+Alternatives: 200:/usr/bin/wget:/bin/uclient-fetch
+
+Package: netify-fwa
+Version: 1.2.6-0.7dd4d567
+Depends: netifyd, ipset, python3-urllib, python3-openssl, python3-codecs, python3-ctypes
+Status: install user installed
+Architecture: all
+Conffiles:
+ /etc/netify-fwa/netify-fwa.json 64ace61cfb2cc59e7c18628938a114c622dee72eb8314f6d3037251f872f4541
+ /etc/netify-fwa/netify-fwa.ini e91386cfac4e0227743f20f29ad78b9c76f2a41f1ddcb2a26fece67b96fa4dce
+Installed-Time: 1681043266
+
+Package: iptables-mod-ipopt
+Version: 1.8.7-7
+Depends: libc, libxtables12, kmod-ipt-ipopt
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: uci
+Version: 2021-10-22-f84f49f0-6
+Depends: libc, libuci20130104
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: lua
+Version: 5.1.5-10
+Depends: libc, liblua5.1.5
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: ucode-mod-fs
+Version: 2022-12-02-46d93c9c-1
+Depends: libc, ucode
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: openwisp-monitoring
+Version: 0.1.1-1
+Depends: libc, netjson-monitoring, openwisp-config
+Status: install user installed
+Architecture: x86_64
+Conffiles:
+ /etc/config/openwisp-monitoring 6b743678fe1dae6a81de093fc173a72f10f9fc82736357b3e061e6e084a9a857
+Installed-Time: 1681043266
+
+Package: collectd
+Version: 5.12.0-33
+Depends: libc, libpthread, zlib, libltdl7, jshn, liblua5.1.5
+Status: install ok installed
+Architecture: x86_64
+Conffiles:
+ /etc/config/collectd cda0744d4895bf60ad375cd12aafb01bbb3ffd37339866af16a6dae348e6f705
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libip4tc2
+ABIVersion: 2
+Version: 1.8.7-7
+Depends: libc
+Provides: libip4tc
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: dbus
+Version: 1.13.18-12
+Depends: libc, libexpat, libdbus
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: dropbear
+Version: 2022.82-2
+Depends: libc
+Status: install user installed
+Architecture: x86_64
+Conffiles:
+ /etc/config/dropbear 0198dbc97b5a9aac76a5c6233684571ccdcc91fcb735e91c36d2b06a98158589
+ /etc/dropbear/dropbear_ed25519_host_key e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+ /etc/dropbear/dropbear_rsa_host_key e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Installed-Time: 1681043266
+Alternatives: 100:/usr/bin/scp:/usr/sbin/dropbear, 100:/usr/bin/ssh:/usr/sbin/dropbear
+
+Package: curl
+Version: 8.0.1-1
+Depends: libc, libcurl4
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: kmod-hwmon-core
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a)
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: rrdtool1
+Version: 1.0.50-5
+Depends: libc, librrd1
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-nls-utf8
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-nls-base
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libnftnl11
+ABIVersion: 11
+Version: 1.2.1-2
+Depends: libc, libmnl0
+Provides: libnftnl
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: ulogd
+Version: 2.0.7-6
+Depends: libc, libmnl0, libnfnetlink0, libpthread
+Status: install ok installed
+Architecture: x86_64
+Conffiles:
+ /etc/ulogd.conf 9af3c360c2912b839f970272f9f2e0ddcb74a0994b1bf4fa4e1e5e6b840adc62
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: luci-compat
+Version: git-23.093.42303-ef4cd04
+Depends: libc, luci-base
+Status: install ok installed
+Architecture: all
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libqmi
+Version: 1.30.8-1
+Depends: libc, glib2, libmbim, libqrtr-glib
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-nls-cp437
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-nls-base
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: rpcd-mod-file
+Version: 2022-12-15-7de4820c-1
+Depends: libc, libubus20220601, libubox20220515, rpcd
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: mtd
+Version: 26
+Depends: libc, libubox20220515
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: odhcpd-ipv6only
+Version: 2023-01-02-4a673e1c-2
+Depends: libc, libubox20220515, libuci20130104, libubus20220601, libnl-tiny1
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: luafilesystem
+Version: 1.8.0-1
+Depends: libc, liblua5.1.5
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: procd-seccomp
+Version: 2022-06-01-7a009685-2
+Depends: libc, libubox20220515, libblobmsg-json20220515
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: python3-codecs
+Version: 3.10.9-1
+Depends: libc, python3-light
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: python3-ubus
+Version: 0.1.1-1
+Depends: libc, libubus20220601, libblobmsg-json20220515, python3-light
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: libiwinfo-data
+Version: 2022-12-15-8d158096-1
+Depends: libc
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libmosquitto-ssl
+Version: 2.0.15-1
+Depends: libc, libpthread, librt, libcares, libopenssl1.1
+Provides: libmosquitto
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: usb-modeswitch
+Version: 2022-02-24-3c8595a4-1
+Depends: libc, libubox20220515, libblobmsg-json20220515, libusb-1.0-0
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: ucode
+Version: 2022-12-02-46d93c9c-1
+Depends: libc, libucode20220812
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: rpcd-mod-luci
+Version: 20210614
+Depends: libc, rpcd, libubox20220515, libubus20220601, libnl-tiny1
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-nf-log
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a)
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: urandom-seed
+Version: 3
+Depends: libc, getrandom
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: libnetfilter-log1
+ABIVersion: 1
+Version: 1.0.2-1
+Depends: libc, libnfnetlink0, kmod-nfnetlink-log, libmnl0
+Provides: libnetfilter-log
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: ipset
+Version: 7.15-2
+Depends: libc, kmod-ipt-ipset, libmnl0, libipset13
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: luci-proto-ppp
+Version: git-21.158.38888-88b9d84
+Depends: libc
+Status: install ok installed
+Architecture: all
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libffi
+Version: 3.4.2-2
+Depends: libc
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libcomerr0
+ABIVersion: 0
+Version: 1.46.5-2
+Depends: libc, libuuid1
+Provides: libcomerr
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: ppp
+Version: 2.4.9.git-2021-01-04-3
+Depends: libc, kmod-ppp
+Status: install user installed
+Architecture: x86_64
+Conffiles:
+ /etc/ppp/chap-secrets 6981fa176a79f8c12be5826c421b16253a616747018ba7e76752a9d36d1d51d4
+ /etc/ppp/filter 579583b318e0cff706ffc134620b42d3fbce8fc31aeb0ad7eea1cc859868e902
+ /etc/ppp/options 01f7358a5528be037dde329a2ecfb7a63382aababf21d4f5bc085f5acef95133
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: luci-mod-admin-full
+Version: git-19.253.48496-3f93650
+Depends: libc, luci-base, luci-mod-status, luci-mod-system, luci-mod-network
+Status: install ok installed
+Architecture: all
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: luci-base
+Version: git-23.093.57104-ce20b4a
+Depends: libc, lua, luci-lib-nixio, luci-lib-ip, rpcd, libubus-lua, luci-lib-jsonc, liblucihttp-lua, luci-lib-base, rpcd-mod-file, rpcd-mod-luci, cgi-io
+Status: install ok installed
+Architecture: x86_64
+Conffiles:
+ /etc/config/luci 60078f7c02ed91d23092c9b75cb9ea5c8ee39f7727def813c8201f8e48a296f4
+ /etc/config/ucitrack f51366117a6456038cfa0d753ff7fe8a9fb5636f561b7bef8718939c6f9a3566
+ /etc/luci-uploads/.placeholder e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: socat
+Version: 1.7.4.1-1
+Depends: libc, libpthread, librt
+Status: install user installed
+Architecture: x86_64
+Conffiles:
+ /etc/config/socat e5d7b03b7f445bf833eb0bd379e4756e80fb5fa2089bb0d5f4c06e1d9d1bca45
+Installed-Time: 1681043266
+
+Package: python3-base
+Version: 3.10.9-1
+Depends: libc, libpthread, zlib, libpython3-3.10
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: logd
+Version: 2021-08-03-205defb5-2
+Depends: libc, libubox20220515, libubus20220601, libblobmsg-json20220515
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: collectd-mod-mqtt
+Version: 5.12.0-33
+Depends: libc, collectd, libmosquitto
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: kmod-nf-log6
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-nf-log
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: xtables-legacy
+Version: 1.8.7-7
+Depends: libc, kmod-ipt-core, libip4tc2, libip6tc2, libiptext0, libiptext6-0, libxtables12
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-usb-net
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-mii, kmod-usb-core
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: openwisp-config
+Version: 1.0.1-1
+Depends: libc, curl, lua, libuci-lua, luafilesystem, luci-lib-nixio, ca-certificates
+Status: install user installed
+Architecture: all
+Conffiles:
+ /etc/config/openwisp 4d8029255009a6269bd70b58997c8977a15bb4ed9af3f7b571aeb416b37fda2b
+Installed-Time: 1681043266
+
+Package: libmbim
+Version: 1.26.4-1
+Depends: libc, glib2
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: librt
+Version: 1.2.3-4
+Depends: libpthread
+Status: install hold installed
+Essential: yes
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-tg3
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-libphy, kmod-ptp
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: libopenssl1.1
+ABIVersion: 1.1
+Version: 1.1.1t-3
+Depends: libc
+Provides: libopenssl
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: collectd-mod-iwinfo
+Version: 5.12.0-33
+Depends: libc, collectd, libiwinfo20210430
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libblobmsg-json20220515
+ABIVersion: 20220515
+Version: 2022-05-15-d2223ef9-1
+Depends: libc, libjson-c5, libubox20220515
+Provides: libblobmsg-json
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libipset13
+ABIVersion: 13
+Version: 7.15-2
+Depends: libc, kmod-ipt-ipset, libmnl0
+Provides: libipset
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: luci-proto-ipv6
+Version: git-21.148.48881-79947af
+Depends: libc
+Status: install ok installed
+Architecture: all
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libip6tc2
+ABIVersion: 2
+Version: 1.8.7-7
+Depends: libc
+Provides: libip6tc
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-nfnetlink-log
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-nfnetlink
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: openwrt-keyring
+Version: 2022-03-25-62471e69-3
+Depends: libc
+Provides: lede-keyring
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: collectd-mod-unixsock
+Version: 5.12.0-33
+Depends: libc, collectd
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: libnl-core200
+ABIVersion: 200
+Version: 3.5.0-1
+Depends: libc, libpthread
+Provides: libnl-core
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-nf-conntrack-netlink
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-nfnetlink, kmod-nf-conntrack
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-libphy
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a)
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libext2fs2
+ABIVersion: 2
+Version: 1.46.5-2
+Depends: libc, libuuid1, libblkid1, libss2, libcomerr0
+Provides: libext2fs
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libiptext6-0
+ABIVersion: -0
+Version: 1.8.7-7
+Depends: libc, libxtables12
+Provides: libiptext6
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: jshn
+Version: 2022-05-15-d2223ef9-1
+Depends: libc, libjson-c5, libubox20220515, libblobmsg-json20220515
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: netjson-monitoring
+Version: 0.1.1-1
+Depends: libc, libubus-lua, lua-cjson, rpcd, rpcd-mod-iwinfo
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: nftables-json
+Version: 1.0.2-2.1
+Depends: libc, kmod-nft-core, libnftnl11, jansson4
+Provides: nftables
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: e2fsprogs
+Version: 1.46.5-2
+Depends: libc, libuuid1, libext2fs2
+Status: install user installed
+Architecture: x86_64
+Conffiles:
+ /etc/e2fsck.conf dece11e2b15f487d7d2bf9f96abe2eaaf9cd33f02d7b9725b9116023d7786cac
+Installed-Time: 1681043266
+
+Package: kmod-ipt-core
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-nf-reject, kmod-nf-ipt, kmod-nf-log
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: wifischedule
+Version: 1-3
+Depends: libc
+Status: install user installed
+Architecture: all
+Conffiles:
+ /etc/config/wifi_schedule d4c7d18a0bf64183585770b5e080a7bb3e941a86dffcd4fa649b9a8eebecd81c
+Installed-Time: 1681043266
+
+Package: kmod-e1000
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a)
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: luci-app-wifischedule
+Version: git-20.110.55046-74da73b
+Depends: libc, luci-compat, wifischedule
+Status: install user installed
+Architecture: all
+Installed-Time: 1681043266
+
+Package: libcares
+Version: 1.18.1-1
+Depends: libc
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: ca-certificates
+Version: 20211016-1
+Depends: libc
+Provides: ca-certs
+Status: install ok installed
+Architecture: all
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-nft-offload
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-nf-flow, kmod-nft-nat
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-ppp
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-lib-crc-ccitt, kmod-slhc
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-pps
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a)
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libncurses6
+ABIVersion: 6
+Version: 6.3-2
+Depends: libc, terminfo
+Provides: libncursesw, libncurses, libncursesw6
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: uhttpd-mod-lua
+Version: 2022-10-31-23977554-1
+Depends: libc, uhttpd, liblua5.1.5
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: kmod-ipt-ipset
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-ipt-core, kmod-nfnetlink
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: netcat
+Version: 0.7.1-2
+Depends: libc
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: collectd-mod-load
+Version: 5.12.0-33
+Depends: libc, collectd
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: ip-tiny
+Version: 5.15.0-4
+Depends: libc, libnl-tiny1, libmnl0
+Provides: ip
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+Alternatives: 200:/sbin/ip:/usr/libexec/ip-tiny
+
+Package: libpcap1
+ABIVersion: 1
+Version: 1.10.1-3
+Depends: libc
+Provides: libpcap
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libiwinfo20210430
+ABIVersion: 20210430
+Version: 2022-12-15-8d158096-1
+Depends: libc, libnl-tiny1, libuci20130104, libubus20220601, libiwinfo-data
+Provides: libiwinfo
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libss2
+ABIVersion: 2
+Version: 1.46.5-2
+Depends: libc, libcomerr0
+Provides: libss
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libjson-c5
+ABIVersion: 5
+Version: 0.15-2
+Depends: libc
+Provides: libjson-c
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: uhttpd
+Version: 2022-10-31-23977554-1
+Depends: libc, libubox20220515, libblobmsg-json20220515, libjson-script20220515, libjson-c5
+Status: install ok installed
+Architecture: x86_64
+Conffiles:
+ /etc/config/uhttpd bcf5f1c5e714cdc46e7855da53ba4c427c37735267ea17eebf958f24efd7d247
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: uqmi
+Version: 2022-05-04-56cb2d40-1
+Depends: libc, libubox20220515, libblobmsg-json20220515, kmod-usb-net, kmod-usb-net-qmi-wwan, wwan
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: kmod-nf-conntrack
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a)
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libcurl4
+ABIVersion: 4
+Version: 8.0.1-1
+Depends: libc, libmbedtls12, libnghttp2-14, ca-bundle
+Provides: libcurl
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: iptables-mod-conntrack-extra
+Version: 1.8.7-7
+Depends: libc, libxtables12, kmod-ipt-conntrack-extra, kmod-ipt-raw
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: usign
+Version: 2020-05-23-f1f65026-1
+Depends: libc, libubox20220515
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: python3-openssl
+Version: 3.10.9-1
+Depends: libc, python3-light, libopenssl1.1, ca-certs
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: bmon
+Version: 4.0-1
+Depends: libc, libncursesw6, libnl-core200, libnl-route200, confuse, terminfo
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: modemmanager
+Version: 1.18.6-2
+Depends: libc, glib2, dbus, ppp, libmbim, libqmi, libqrtr-glib
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: liblua5.1.5
+ABIVersion: 5.1.5
+Version: 5.1.5-10
+Depends: libc
+Provides: liblua
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: zlib
+Version: 1.2.11-6
+Depends: libc
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: flow_broker
+Version: 2022-04-08-dfb56589-v1.0
+Depends: libc, ulogd, ulogd-mod-extra, ulogd-mod-json, ulogd-mod-nfct, ulogd-mod-nflog, python3-netifaces, iptables-mod-nflog
+Status: install user installed
+Architecture: all
+Installed-Time: 1681043266
+
+Package: kmod-nf-ipt6
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-nf-ipt, kmod-nf-log6
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: luci-lib-nixio
+Version: git-20.234.06894-c4a4e43
+Depends: libc, liblua5.1.5
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: mwan3
+Version: 2.11.4-1
+Depends: libc, ip, ipset, iptables, ip6tables, iptables-mod-conntrack-extra, iptables-mod-ipopt, jshn
+Status: install user installed
+Architecture: all
+Conffiles:
+ /etc/config/mwan3 391fce13910b62ebfdecd4be1230ea06f5d1ede250c24f4aeaecfd7e4d355905
+ /etc/mwan3.user ccc83d99334ff3c345a0de40e6057069ecc32d08ef826c1058e4820a68464d59
+Installed-Time: 1681043266
+
+Package: libubox20220515
+ABIVersion: 20220515
+Version: 2022-05-15-d2223ef9-1
+Depends: libc
+Provides: libubox
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: collectd-mod-rrdtool
+Version: 5.12.0-33
+Depends: libc, collectd, librrd1
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: ca-bundle
+Version: 20211016-1
+Depends: libc
+Provides: ca-certs
+Status: install user installed
+Architecture: all
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-forcedeth
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a)
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: libuclient20201210
+ABIVersion: 20201210
+Version: 2023-04-13-007d9454-1
+Depends: libc, libubox20220515
+Provides: libuclient
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: liblucihttp-lua
+Version: 2023-03-15-9b5b683f-1
+Depends: libc, liblucihttp0, liblua5.1.5
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-nls-iso8859-1
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-nls-base
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: luci-lib-jsonc
+Version: git-22.097.61921-7513345
+Depends: libc, liblua5.1.5, libjson-c5
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-amd-xgbe
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-lib-crc32c, kmod-ptp, kmod-libphy, kmod-mdio-devres
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: collectd-mod-memory
+Version: 5.12.0-33
+Depends: libc, collectd
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-ipt-ipopt
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-ipt-core
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: python3-uci
+Version: 0.9.0-1
+Depends: libc, python3-light, libuci20130104
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: kmod-ptp
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-pps
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: luci
+Version: git-23.093.42303-d58cd69
+Depends: libc, luci-proto-ipv6, libiwinfo-lua, luci-app-firewall, luci-app-opkg, luci-mod-admin-full, luci-proto-ppp, luci-theme-bootstrap, rpcd-mod-rrdns, uhttpd, uhttpd-mod-ubus
+Status: install user installed
+Architecture: all
+Installed-Time: 1681043266
+
+Package: l7stats
+Version: 2022-03-03-542ca21c-v1.1
+Depends: libc, netifyd, python3-urllib, python3-openssl, collectd, collectd-mod-unixsock
+Status: install user installed
+Architecture: all
+Installed-Time: 1681043266
+
+Package: kmod-nf-conntrack6
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-nf-conntrack
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libgcc1
+ABIVersion: 1
+Version: 11.2.0-4
+Provides: libgcc
+Status: install hold,user installed
+Essential: yes
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libucode20220812
+ABIVersion: 20220812
+Version: 2022-12-02-46d93c9c-1
+Depends: libc, libjson-c5
+Provides: libucode
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libstdcpp6
+ABIVersion: 6
+Version: 11.2.0-4
+Provides: libstdcpp
+Status: install hold installed
+Essential: yes
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: librrd1
+Version: 1.0.50-5
+Depends: libc, zlib
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libexpat
+Version: 2.4.9-1
+Depends: libc
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: python3-ctypes
+Version: 3.10.9-1
+Depends: libc, python3-light
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: ubox
+Version: 2021-08-03-205defb5-2
+Depends: libc, libubox20220515, ubusd, ubus, libubus20220601, libuci20130104
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+Alternatives: 100:/sbin/rmmod:/sbin/kmodloader, 100:/sbin/insmod:/sbin/kmodloader, 100:/sbin/lsmod:/sbin/kmodloader, 100:/sbin/modinfo:/sbin/kmodloader, 100:/sbin/modprobe:/sbin/kmodloader
+
+Package: kmod-amazon-ena
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a)
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: kernel
+Version: 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a
+Depends: libc
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: kmod-e1000e
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-ptp
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: iptables-mod-nflog
+Version: 1.8.7-7
+Depends: libc, libxtables12, kmod-nfnetlink-log, kmod-ipt-nflog
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: rtty-mbedtls
+Version: 8.0.1-2
+Depends: libc, libev, libmbedtls12, zlib
+Provides: rtty
+Status: install user installed
+Architecture: x86_64
+Conffiles:
+ /etc/config/rtty 8309aebbaffd23404fc4b2ec9d9766cfe16f5a5cfd98af6beede611b643869d5
+Installed-Time: 1681043266
+
+Package: libqrtr-glib
+Version: 1.2.2-1
+Depends: libc, glib2
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: ulogd-mod-nflog
+Version: 2.0.7-6
+Depends: libc, ulogd, libnetfilter-log1
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: rpcd-mod-iwinfo
+Version: 2022-12-15-7de4820c-1
+Depends: libiwinfo (>= 2022-12-15), libc, libubus20220601, libubox20220515, rpcd, libiwinfo20210430
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: luci-mod-network
+Version: git-23.093.42704-52965f4
+Depends: libc, luci-base, libiwinfo-lua, rpcd-mod-iwinfo
+Status: install ok installed
+Architecture: all
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-nft-core
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-nfnetlink, kmod-nf-reject, kmod-nf-reject6, kmod-nf-conntrack6, kmod-nf-nat, kmod-nf-log, kmod-nf-log6, kmod-lib-crc32c
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libltdl7
+ABIVersion: 7
+Version: 2.4.6-2
+Depends: libc
+Provides: libltdl
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-button-hotplug
+Version: 5.10.176-3
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-input-core
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: kmod-nls-base
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a)
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libnfnetlink0
+ABIVersion: 0
+Version: 1.0.2-1
+Depends: libc
+Provides: libnfnetlink
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: uhttpd-mod-ubus
+Version: 2022-10-31-23977554-1
+Depends: libc, uhttpd, libubus20220601, libblobmsg-json20220515
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: fwtool
+Version: 2019-11-12-8f7fe925-1
+Depends: libc
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: wwan
+Version: 2019-04-29-5
+Depends: libc
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: jsonfilter
+Version: 2018-02-04-c7e938d6-1
+Depends: libc, libubox20220515, libjson-c5
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-mdio
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a)
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-igb
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-i2c-core, kmod-i2c-algo-bit, kmod-ptp, kmod-hwmon-core
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: kmod-igc
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-ptp
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: collectd-mod-cpu
+Version: 5.12.0-33
+Depends: libc, collectd
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-bnx2
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), bnx2-firmware
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: kmod-i2c-algo-bit
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-i2c-core
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: libattr
+Version: 2.5.1-1
+Depends: libc
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: kmod-mdio-devres
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-libphy
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: openvpn-mbedtls
+Version: 2.5.7-3
+Depends: libc, kmod-tun, libmbedtls12
+Provides: openvpn, openvpn-crypto
+Status: install user installed
+Architecture: x86_64
+Conffiles:
+ /etc/config/openvpn 069584bd1b77d5841df8698411d7ede62bf26bf3727a6a2ad4ab4296d23844da
+ /etc/openvpn.user 74d30bb379f0bd977919821284c85e776b1da4f28141dee0083d1d6e5a28072a
+Installed-Time: 1681043266
+
+Package: urngd
+Version: 2020-01-21-c7f7b6b6-1
+Depends: libc, libubox20220515
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: iftop
+Version: 2018-10-03-77901c8c-2
+Depends: libc, libpcap1, libncurses6, libpthread
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: kmod-slhc
+Version: 5.10.176-1
+Depends: kernel (= 5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-lib-crc-ccitt
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: rpcd-mod-rrdns
+Version: 20170710
+Depends: libc, rpcd, libubox20220515, libubus20220601
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: ip6tables-zz-legacy
+Version: 1.8.7-7
+Depends: libc, kmod-ip6tables, xtables-legacy
+Provides: ip6tables, ip6tables-legacy
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+Alternatives: 200:/usr/sbin/ip6tables:/usr/sbin/xtables-legacy-multi, 200:/usr/sbin/ip6tables-restore:/usr/sbin/xtables-legacy-multi, 200:/usr/sbin/ip6tables-save:/usr/sbin/xtables-legacy-multi
+
+Package: luci-app-openvpn
+Version: git-23.093.42303-4b07c72
+Depends: libc, luci-compat
+Status: install user installed
+Architecture: all
+Installed-Time: 1681043266
+
+Package: ppp-mod-pppoe
+Version: 2.4.9.git-2021-01-04-3
+Depends: libc, kmod-pppoe
+Status: install user installed
+Architecture: x86_64
+Installed-Time: 1681043266
+
+Package: libnghttp2-14
+ABIVersion: -14
+Version: 1.44.0-1
+Depends: libc
+Provides: libnghttp2
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+
+Package: netifyd
+Version: 2021-11-17-v3.09-1
+Depends: libc, ca-bundle, libcurl4, libmnl0, libnetfilter-conntrack3, libpcap1, zlib, libpthread, libstdcpp6
+Status: install user installed
+Architecture: x86_64
+Conffiles:
+ /etc/config/netifyd 2245f94e589fbff89f639844feda510003f21c80d96ec8a5b2c65f964aa3ca3e
+ /etc/netifyd.conf 9587c9730bef1c75ecc5c40e4ab5e027a6da0ca1a10452d45a69e34ee5f15dc6
+Installed-Time: 1681043266
+
+Package: iptables-zz-legacy
+Version: 1.8.7-7
+Depends: libc, xtables-legacy
+Provides: iptables, iptables-legacy
+Status: install ok installed
+Architecture: x86_64
+Installed-Time: 1681043266
+Auto-Installed: yes
+Alternatives: 200:/usr/sbin/iptables:/usr/sbin/xtables-legacy-multi, 200:/usr/sbin/iptables-restore:/usr/sbin/xtables-legacy-multi, 200:/usr/sbin/iptables-save:/usr/sbin/xtables-legacy-multi
+

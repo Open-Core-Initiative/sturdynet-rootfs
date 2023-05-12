@@ -1,0 +1,3 @@
+/etc/netify.d/agent.uuid
+/etc/netify.d/serial.uuid
+/etc/netify.d/site.uuid

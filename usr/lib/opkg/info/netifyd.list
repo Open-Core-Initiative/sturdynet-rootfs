@@ -1,0 +1,9 @@
+/usr/lib/libnetifyd.so.1
+/etc/config/netifyd
+/etc/netifyd.conf
+/etc/init.d/netifyd
+/usr/lib/libnetifyd.so.1.0.0
+/usr/sbin/netifyd
+/lib/upgrade/keep.d/netifyd
+/usr/share/netifyd/functions.sh
+/etc/netify.d/netify-sink.conf

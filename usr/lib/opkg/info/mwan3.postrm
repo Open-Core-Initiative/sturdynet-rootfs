@@ -1,0 +1,5 @@
+#!/bin/sh
+if [ -z "${IPKG_INSTROOT}" ] && [ -x /etc/init.d/rpcd ]; then
+	/etc/init.d/rpcd restart
+fi
+exit 0

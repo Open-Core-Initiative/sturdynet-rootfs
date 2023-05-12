@@ -1,0 +1,3 @@
+/usr/sbin/ip6tables-legacy
+/usr/sbin/ip6tables-legacy-save
+/usr/sbin/ip6tables-legacy-restore

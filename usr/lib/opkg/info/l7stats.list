@@ -1,0 +1,8 @@
+/usr/sbin/l7stats.sh
+/usr/share/l7stats/l7stats_netifyd_uds.py
+/usr/share/l7stats/l7stats_main.py
+/etc/init.d/l7stats
+/usr/share/l7stats/l7stats_flow_manager.py
+/usr/share/l7stats/l7stats_netifyd_version.py
+/etc/config/l7stats
+/usr/share/l7stats/l7stats_collectd_uds.py

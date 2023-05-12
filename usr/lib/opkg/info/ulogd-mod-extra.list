@@ -1,0 +1,15 @@
+/usr/lib/ulogd/ulogd_filter_PRINTFLOW.so
+/usr/lib/ulogd/ulogd_filter_MARK.so
+/usr/lib/ulogd/ulogd_filter_HWHDR.so
+/usr/lib/ulogd/ulogd_output_GPRINT.so
+/usr/lib/ulogd/ulogd_output_OPRINT.so
+/usr/lib/ulogd/ulogd_filter_IP2HBIN.so
+/usr/lib/ulogd/ulogd_filter_PWSNIFF.so
+/usr/lib/ulogd/ulogd_filter_IP2STR.so
+/usr/lib/ulogd/ulogd_output_LOGEMU.so
+/usr/lib/ulogd/ulogd_filter_IFINDEX.so
+/usr/lib/ulogd/ulogd_inppkt_UNIXSOCK.so
+/usr/lib/ulogd/ulogd_filter_PRINTPKT.so
+/usr/lib/ulogd/ulogd_output_GRAPHITE.so
+/usr/lib/ulogd/ulogd_filter_IP2BIN.so
+/usr/lib/ulogd/ulogd_output_IPFIX.so

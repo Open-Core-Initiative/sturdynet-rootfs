@@ -1,0 +1,2 @@
+00 00 * * Sat,Sun /usr/bin/wifi_schedule.sh forcestop
+*/1 * * * * /usr/sbin/mwan3_fix

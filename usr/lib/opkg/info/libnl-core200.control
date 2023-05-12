@@ -1,0 +1,13 @@
+Package: libnl-core200
+Version: 3.5.0-1
+Depends: libc, libpthread
+Provides: libnl-core
+Source: feeds/base/package/libs/libnl
+SourceName: libnl-core
+License: LGPL-2.1
+Section: libs
+SourceDateEpoch: 1572639580
+ABIVersion: 200
+Architecture: x86_64
+Installed-Size: 43434
+Description:  Common code for all netlink libraries

@@ -1,0 +1,11 @@
+Package: luci-proto-modemmanager
+Version: git-23.093.42704-02e0766
+Depends: libc, modemmanager
+Source: feeds/luci/protocols/luci-proto-modemmanager
+SourceName: luci-proto-modemmanager
+Section: luci
+SourceDateEpoch: 1680522704
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1945
+Description:  Support for ModemManager

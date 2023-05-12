@@ -1,0 +1,2 @@
+/usr/lib/collectd/unixsock.so
+/usr/share/collectd/plugin/unixsock.json

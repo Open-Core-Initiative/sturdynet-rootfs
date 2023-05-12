@@ -1,0 +1,13 @@
+Package: netjson-monitoring
+Version: 0.1.1-1
+Depends: libc, libubus-lua, lua-cjson, rpcd, rpcd-mod-iwinfo
+Source: feeds/packages/admin/openwisp-monitoring
+SourceName: netjson-monitoring
+License: GPL3.0-or-later
+LicenseFiles: LICENSE
+Section: admin
+SourceDateEpoch: 1656716005
+Maintainer: Federico Capoano <support@openwisp.io>
+Architecture: x86_64
+Installed-Size: 6318
+Description:  NetJson Monitoring

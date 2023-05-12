@@ -1,0 +1,11 @@
+Package: kmod-igb
+Version: 5.10.176-1
+Depends: kernel (=5.10.176-1-c90b8cdeba326c5459f96b8e3bd16c5a), kmod-i2c-core, kmod-i2c-algo-bit, kmod-ptp, kmod-hwmon-core
+Source: package/kernel/linux
+SourceName: kmod-igb
+License: GPL-2.0
+Section: kernel
+SourceDateEpoch: 1679936281
+Architecture: x86_64
+Installed-Size: 91833
+Description:  Kernel modules for Intel(R) 82575/82576 PCI-Express Gigabit Ethernet adapters.

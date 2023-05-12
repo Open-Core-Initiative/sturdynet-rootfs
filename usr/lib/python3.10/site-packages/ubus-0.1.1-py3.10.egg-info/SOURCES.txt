@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+./ubus_python.c
+ubus.egg-info/PKG-INFO
+ubus.egg-info/SOURCES.txt
+ubus.egg-info/dependency_links.txt
+ubus.egg-info/not-zip-safe
+ubus.egg-info/top_level.txt

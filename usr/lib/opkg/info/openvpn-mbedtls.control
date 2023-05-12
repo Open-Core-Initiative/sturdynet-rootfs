@@ -1,0 +1,14 @@
+Package: openvpn-mbedtls
+Version: 2.5.7-3
+Depends: libc, kmod-tun, libmbedtls12
+Provides: openvpn, openvpn-crypto
+Source: feeds/packages/net/openvpn
+SourceName: openvpn-mbedtls
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1664871760
+CPE-ID: cpe:/a:openvpn:openvpn
+Maintainer: Magnus Kroken <mkroken@gmail.com>
+Architecture: x86_64
+Installed-Size: 225433
+Description:  Open source VPN solution using mbedTLS

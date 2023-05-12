@@ -1,0 +1,13 @@
+Package: ulogd-mod-json
+Version: 2.0.7-6
+Depends: libc, ulogd, jansson4
+Source: feeds/packages/net/ulogd
+SourceName: ulogd-mod-json
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1613865735
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: x86_64
+Installed-Size: 4238
+Description:  JSON output plugin

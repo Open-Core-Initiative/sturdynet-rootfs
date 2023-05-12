@@ -1,0 +1,13 @@
+Package: python3-uci
+Version: 0.9.0-1
+Depends: libc, python3-light, libuci20130104
+Source: feeds/packages/lang/python/python-uci
+SourceName: python3-uci
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1661525745
+Maintainer: Josef Schlehofer <josef.schlehofer@nic.cz>
+Architecture: x86_64
+Installed-Size: 13120
+Description:  Python3 bindings for Unified Configuration Interface.
