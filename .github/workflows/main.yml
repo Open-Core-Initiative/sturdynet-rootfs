@@ -16,6 +16,6 @@ jobs:
       - run: ls
       - run: rm -rf openwrt-22.03.4-x86-64-generic-rootfs.tar.gz
       - run: sudo docker login --username ${{ secrets.DOCKERHUB_USERNAME }} --password ${{ secrets.DOCKERHUB_TOKEN }}
-      - run: sudo docker image build --file=Dockerfile --pull --tag=${{ secrets.DOCKERHUB_USERNAME }}/rootfs:v7 .
-      - run: sudo docker push "${{ secrets.DOCKERHUB_USERNAME }}/rootfs:v7"
+      - run: sudo docker image build --file=Dockerfile --pull --tag=${{ secrets.DOCKERHUB_USERNAME }}/rootfs:latest .
+      - run: sudo docker push "${{ secrets.DOCKERHUB_USERNAME }}/rootfs:latest"
       - run: sudo docker logout
