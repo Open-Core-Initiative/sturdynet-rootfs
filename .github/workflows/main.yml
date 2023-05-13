@@ -9,8 +9,6 @@ jobs:
   build:
     runs-on: self-hosted
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
       - run: mkdir build && cd build
       - run: wget -v "https://runners-cache-sturdynet.s3.us-west-2.amazonaws.com/rootfs/openwrt-22.03.4-x86-64-generic-rootfs.tar.gz"
       - run: tar -xf openwrt-22.03.4-x86-64-generic-rootfs.tar.gz
