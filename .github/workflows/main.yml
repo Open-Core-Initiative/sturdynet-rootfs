@@ -1,9 +1,9 @@
-name: building sturdynet image
+name: building generic rootfs image
 
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["main"]
+    branches: ["main", "generic"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -13,13 +13,13 @@ jobs:
     runs-on: self-hosted
     steps:
       - run: mkdir build && cd build
-      - run: wget -v "https://runners-cache-sturdynet.s3.us-west-2.amazonaws.com/rootfs/openwrt-22.03.4-x86-64-generic-rootfs.tar.gz"
-      - run: tar -xf openwrt-22.03.4-x86-64-generic-rootfs.tar.gz
-      - run: rm -rf openwrt-22.03.4-x86-64-generic-rootfs.tar.gz
+      - run: wget -v "https://downloads.openwrt.org/releases/22.03.5/targets/x86/64/openwrt-22.03.5-x86-64-generic-squashfs-rootfs.img.gz"
+      - run: tar -xf openwrt-22.03.5-x86-64-generic-squashfs-rootfs.img.gz
+      - run: rm -rf openwrt-22.03.5-x86-64-generic-squashfs-rootfs.img.gz
       - run: sudo docker builder prune --force --all
       - run: sudo docker system prune --force --all
       - run: sudo docker login --username ${{ secrets.DOCKERHUB_USERNAME }} --password ${{ secrets.DOCKERHUB_TOKEN }}
-      - run: sudo docker image build --file=Dockerfile --pull --tag=${{ secrets.DOCKERHUB_USERNAME }}/rootfs:latest .
-      - run: sudo docker push "${{ secrets.DOCKERHUB_USERNAME }}/rootfs:latest"
+      - run: sudo docker image build --file=Dockerfile --pull --tag=${{ secrets.DOCKERHUB_USERNAME }}/rootfs:generic .
+      - run: sudo docker push "${{ secrets.DOCKERHUB_USERNAME }}/rootfs:generic"
       - run: sudo docker logout
       - run: cd .. && rm -rf build
